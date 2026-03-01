@@ -60,7 +60,7 @@ def parafrase_saran(awal):
     # Ambil hasil
     return response.choices[0].message.content
 
-client = Groq(api_key="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")
+client = Groq(api_key="xxx")
 kalimat_deskripsi = "Pemahaman Ananda Ipin terhadap materi Matematika tergolong cukup, namun penguasaan materi bilangan pecahan, perkalian dan pembagian pecahan masih perlu ditingkatkan."
 print(parafrase(kalimat_deskripsi))
 print("----------------------------------")
@@ -80,3 +80,4 @@ Ananda Ipin menunjukkan kehadiran yang memadai namun masih memerlukan peningkata
 """
 print(parafrase_saran(kalimat_deskripsi))
 print("----------------------------------")
+
